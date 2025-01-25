@@ -17,14 +17,14 @@
     "chokidar-cli": "^3.0.0",
     "typescript": "^5.3.3",
     "vite": "^5.1.4",
-    "vitest-environment-clarinet": "^2.0.0"
+    "vitest-environment-clarinet": "^2.1.0"
   },
   "main": "vitest.config.js",
   "directories": {
     "test": "tests"
   },
   "devDependencies": {
-    "vitest": "^3.0.4"
+    "vitest": "^1.6.0"
   },
   "keywords": []
 }
