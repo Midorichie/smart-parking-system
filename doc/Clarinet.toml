@@ -1,0 +1,23 @@
+[project]
+name = "smart-parking-system"
+description = "IoT-based Smart Parking Management System on Stacks Blockchain"
+authors = ["Your Name <your.email@example.com>"]
+telemetry = false
+
+[contracts.parking-management]
+path = "contracts/parking-management.clar"
+depends_on = []
+
+[analysis]
+passes = ["check_functions"]
+
+[repl]
+cost_model = "mainnet"
+mode = "dev"
+
+[requirements]
+clarinet = "0.x.x"
+stacks = "2.x.x"
+
+[deployment]
+strategy = "simultaneous"
