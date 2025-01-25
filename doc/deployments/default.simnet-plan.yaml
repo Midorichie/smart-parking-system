@@ -48,6 +48,9 @@ genesis:
 plan:
   batches:
     - id: 0
+      transactions: []
+      epoch: "2.05"
+    - id: 1
       transactions:
         - emulated-contract-publish:
             contract-name: parking-management
